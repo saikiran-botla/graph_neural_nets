@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "graph_retrieval_toolkit"
+version = "0.0.1"
+authors = [
+  { name="Sanidhya Anand", email="sanidhya.anand@iitb.ac.in" },
+  { name="Kunind Sahu" }
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sanidhyaanand/graphretrievaltoolkit"
+"Bug Tracker" = "https://github.com/sanidhyaanand/graphretrievaltoolkit/issues"
